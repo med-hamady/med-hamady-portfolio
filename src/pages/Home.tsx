@@ -81,7 +81,7 @@ const Home = ({ setPage }: Props) => {
             letterSpacing="wide"
             color={headingColor}
           >
-            KAREEM HAMOUDA
+          Mohamed SidiYahya Hamady 
           </Text>
           <Text
             fontSize={{ base: "lg", md: "xl" }}
@@ -89,7 +89,7 @@ const Home = ({ setPage }: Props) => {
             color={accentColor}
             mb={{ base: 6, md: 10 }}
           >
-            Full Stack Developer | MERN
+            Network Engineer || Full Stack Developer 
           </Text>
         </Box>
 

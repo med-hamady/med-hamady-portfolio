@@ -1,54 +1,55 @@
 export const aboutMe = {
   description: [
-    "A Full Stack Developer (MERN) with a degree in Computer Science (Information Systems) from Ain Shams University and 9 months of professional training at Information Technology Institute (ITI) in Web & UI Development.",
-    "Experienced in leadership, teaching, and mentoring, having served as a military reserve officer with a background in web development. Skilled in front-end and back-end development, as well as UI/UX design, and can deliver results under pressure. Passionate about building scalable web applications and contributing to innovative projects.",
+    "Je suis Mohamed SidiYahya Hamady, étudiant à l’ISCAE en Réseaux Informatiques et Télécommunications.",
+    "Passionné par les systèmes Cisco, le développement web (React, Laravel, PHP), et l’automatisation réseau avec Python et Flask.",
+    "Je développe des solutions innovantes et pratiques, tout en gardant un esprit rigoureux et curieux. J’ai travaillé sur des projets mêlant réseaux, scripts d’automatisation et applications web professionnelles.",
   ],
-  // Simply upload your CV to your Google Drive, then just copy the link to the uploaded file and paste it here.
-  cvDriveLink:
-    "https://drive.google.com/file/d/1vqkYvwaAUv3WlqJh1cg4PuwS3PFXBjSM/view?usp=drive_link",
+  // 👉 Remplace le lien ci-dessous par ton vrai lien Google Drive (mode partagé)
+  cvDriveLink: "https://drive.google.com/file/d/TON_ID_CV/view?usp=sharing",
 };
 
 export const technicalSkills: Record<string, string[]> = {
-  // You can rename the type of skills, it's dynamically rendered. eg: You can change "Programming Languages" -> to just "Languages"
-  "Programming Languages": ["JavaScript", "TypeScript", "C#", "C++"],
-  "Frontend Development": [
-    "React",
-    "Next.js",
-    "Angular",
+  "Réseaux & Automatisation": [
+    "Cisco IOS",
+    "Netmiko",
+    "Wireshark",
+    "GNS3",
+    "EVE-NG",
+    "Packet Tracer",
+  ],
+  "Développement Web": [
     "HTML5",
     "CSS3",
-    "Bootstrap",
-    "Tailwind",
-    "Chakra UI",
-    "Redux Toolkit",
-  ],
-  "Backend Development": [
+    "JavaScript",
+    "Laravel",
+    "React",
+    "Flask",
     "Node.js",
-    "Express.js",
-    ".NET",
-    "MongoDB",
-    "Mongoose",
-    "SQL",
+  ],
+  "Bases de Données": [
     "MySQL",
+    "SQLite",
+    "MongoDB",
   ],
-  "UI/UX Design": [
-    "Figma",
-    "Adobe Illustrator",
-    "Adobe Photoshop",
-    "Miro",
-    "MockFlow",
+  "Langages de Programmation": [
+    "Python",
+    "Java",
+    "PHP",
+    "C#",
   ],
-  "Tools & Technologies": [
+  "Outils": [
     "Git",
     "GitHub",
-    "Agile (Scrum, Jira, Kanban)",
-    "Trello",
+    "Linux (Ubuntu, Debian)",
+    "Visual Studio Code",
+    "Postman",
+    "Figma",
   ],
   "Soft Skills": [
-    "Presentation",
     "Communication",
-    "Professional Demeanor",
-    "Leadership",
-    "Mentorship",
+    "Esprit d'équipe",
+    "Autonomie",
+    "Gestion du temps",
+    "Résolution de problèmes",
   ],
 };

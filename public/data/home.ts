@@ -7,59 +7,60 @@ import { FaFacebook } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 
 export const homeData = {
-  // To use your own photo, just place it in /public/assets and write the link as I did: eg: /assets/my_image.jpg
-  // Of course it's best to convert your image file type to webp for better performance on the web!
-  // The links are optional
-  myImage: "/assets/my_image.webp",
+  // Ajoute ton image dans /public/assets avec le nom ci-dessous
+  myImage: "/assets/mohamed-hamady.jpg",
+
   contactInfo: [
     {
       Icon: IoMdMail,
-      Label: "kareem.e.hamouda@gmail.com",
-      Link: "/contact", // This refers to the Contact page in the website, you can change it to whatever you like
+      Label: "mohamed.hamady@gmail.com", // remplace si tu veux une autre adresse
+      Link: "/contact",
     },
     {
       Icon: FaLocationDot,
-      Label: "Cairo, Egypt",
-      Link: "https://www.google.com/maps/place/Cairo,+Cairo+Governorate/@30.0594885,31.2584644,13z", // This is just a simple location of my city
+      Label: "Nouakchott, Mauritanie",
+      Link: "https://www.google.com/maps/place/Nouakchott",
     },
     {
       Icon: FaPhoneAlt,
-      Label: "+20 115 111 9085",
-      Link: "tel:+201151119085",
+      Label: "+222 48783201", // remplace par ton numéro réel si souhaité
+      Link: "tel:+22248783201",
     },
   ],
+
   education: [
     {
       Icon: FaUniversity,
-      Label: "Ain Shams University",
-      Link: "https://www.asu.edu.eg/",
+      Label: "ISCAE - Institut Supérieur de Comptabilité et d’Administration des Entreprises",
+      Link: "https://www.iscae.mr/",
     },
     {
       Icon: FaGraduationCap,
-      Label: "Bachelor's Degree in Computer Science",
-      Link: "https://cis.asu.edu.eg/",
+      Label: "Licence en Réseaux Informatiques et Télécommunications",
+      Link: "#",
     },
   ],
+
   social: [
     {
       Icon: FaGithub,
       Label: "GitHub",
-      Link: "https://github.com/KareemEhab",
+      Link: "https://github.com/med-hamady",
     },
     {
       Icon: FaLinkedin,
       Label: "LinkedIn",
-      Link: "https://www.linkedin.com/in/kareem-hamouda/",
+      Link: "https://www.linkedin.com/in/mohamedsidiyahyahamady/", // remplace par le bon lien
     },
     {
       Icon: FaFacebook,
       Label: "Facebook",
-      Link: "https://www.facebook.com/kareem.ehab.37",
+      Link: "https://www.facebook.com/ton-profil", // facultatif
     },
     {
       Icon: FaInstagram,
       Label: "Instagram",
-      Link: "https://www.instagram.com/kareem.ehabz/",
+      Link: "https://www.instagram.com/ton-profil", // facultatif
     },
   ],
 };
