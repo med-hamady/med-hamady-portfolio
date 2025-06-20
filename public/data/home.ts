@@ -8,7 +8,7 @@ import { FaInstagram } from "react-icons/fa";
 
 export const homeData = {
   // Ajoute ton image dans /public/assets avec le nom ci-dessous
-  myImage: "/assets/mohamed-hamady.jpg",
+  myImage: "/assets/mohamed-hamady.webp",
 
   contactInfo: [
     {
