@@ -1,9 +1,9 @@
+// vite.config.ts
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
-// https://vitejs.dev/config/
+// Configuration adaptée au déploiement sur Vercel
 export default defineConfig({
-  base: '/med-hamady-portfolio/', // 👈 correspond exactement au nom du repo GitHub
+  base: '/', // Ne surtout pas mettre un sous-chemin ici pour Vercel
   plugins: [react()],
 });
-
